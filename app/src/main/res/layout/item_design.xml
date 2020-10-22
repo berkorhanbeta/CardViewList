@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Created by Berk Orhan on
+  ~ APPBeta Mobile | www.APPBeta.net | mobile@appbeta.net
+  ~
+  ~           YASAL UYARI
+  ~
+  ~                 Bu proje dosyasının herhangi bir amaç ile izinsiz olarak dağıtılması,
+  ~                 çoğaltılması, satılması ve izinsiz kullanılması yasaktır!
+  ~
+  ~                 İzinsiz kullanım, çoğaltımı, dağıtımı, satışı yapıldığı
+  ~                 tespit edilmesi halinde yasal yollara başvurulacaktır.
+  ~
+  ~                  Copyright (c)  2020. Berk Orhan. All rights reserved.
+  ~
+  -->
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/dimen_for_8dp"
+    app:cardElevation="@dimen/dimen_for_8dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+
+
+
+        <LinearLayout
+            android:id="@+id/main_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/text_image"
+                android:layout_width="@dimen/dimen_for_textImage"
+                android:layout_height="@dimen/dimen_for_textImage"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dimen_for_5dp"
+                android:layout_marginEnd="@dimen/dimen_for_5dp"
+                android:layout_marginStart="@dimen/dimen_for_7dp"
+                android:layout_marginTop="@dimen/dimen_for_5dp"
+                android:contentDescription="@string/image_desc"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/ayrac"
+                android:layout_width="@dimen/ayrac"
+                android:layout_height="match_parent"
+                android:background="@color/ayrac_color" />
+
+            <LinearLayout
+                android:id="@+id/content_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_for_10dp">
+
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_ParagpraphTitle"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textTitle_color"
+                    android:textSize="@dimen/dimen_for_14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_paragpraph"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_paragpraph"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/textParagraph_Color"
+                    android:textSize="@dimen/dimen_for_10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

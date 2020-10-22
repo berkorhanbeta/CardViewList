@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Created by Berk Orhan on
+  ~ APPBeta Mobile | www.APPBeta.net | mobile@appbeta.net
+  ~
+  ~           YASAL UYARI
+  ~
+  ~                 Bu proje dosyasının herhangi bir amaç ile izinsiz olarak dağıtılması,
+  ~                 çoğaltılması, satılması ve izinsiz kullanılması yasaktır!
+  ~
+  ~                 İzinsiz kullanım, çoğaltımı, dağıtımı, satışı yapıldığı
+  ~                 tespit edilmesi halinde yasal yollara başvurulacaktır.
+  ~
+  ~                  Copyright (c)  2020. Berk Orhan. All rights reserved.
+  ~
+  -->
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/statusBar_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dimen_for64"
+            android:paddingTop="@dimen/dimen_for64">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="@dimen/android_bitmap"
+                android:layout_height="@dimen/android_bitmap"
+                android:background="@drawable/android_bitmap"
+                android:contentDescription="@string/image_desc" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_for_5dp"
+                android:layout_marginStart="@dimen/dimen_for_5dp"
+                android:background="@color/textTitle_color"
+                app:cardCornerRadius="@dimen/dimen_for_8dp"
+                app:cardElevation="@dimen/dimen_for_8dp"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/textTitle_color"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_for_10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="@dimen/dimen_for_10dp"
+                        android:layout_marginTop="@dimen/dimen_for_10dp"
+                        android:text="@string/mainActivityText"
+                        android:textAlignment="center"
+                        android:textColor="@color/ayrac_color"
+                        android:textSize="@dimen/dimen_for_14sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_for_16dp"
+                android:background="@color/ayrac_color"
+                android:onClick="listViewLayout"
+                android:text="@string/show_button" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

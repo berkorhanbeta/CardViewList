@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Berk Orhan on
+  ~ APPBeta Mobile | www.APPBeta.net | mobile@appbeta.net
+  ~
+  ~           YASAL UYARI
+  ~
+  ~                 Bu proje dosyasının herhangi bir amaç ile izinsiz olarak dağıtılması,
+  ~                 çoğaltılması, satılması ve izinsiz kullanılması yasaktır!
+  ~
+  ~                 İzinsiz kullanım, çoğaltımı, dağıtımı, satışı yapıldığı
+  ~                 tespit edilmesi halinde yasal yollara başvurulacaktır.
+  ~
+  ~                  Copyright (c)  2020. Berk Orhan. All rights reserved.
+  ~
+  -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:divider="@null">
+
+    </ListView>
+</RelativeLayout>

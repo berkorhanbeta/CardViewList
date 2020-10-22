@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Berk Orhan on
+  ~ APPBeta Mobile | www.APPBeta.net | mobile@appbeta.net
+  ~
+  ~           YASAL UYARI
+  ~
+  ~                 Bu proje dosyasının herhangi bir amaç ile izinsiz olarak dağıtılması,
+  ~                 çoğaltılması, satılması ve izinsiz kullanılması yasaktır!
+  ~
+  ~                 İzinsiz kullanım, çoğaltımı, dağıtımı, satışı yapıldığı
+  ~                 tespit edilmesi halinde yasal yollara başvurulacaktır.
+  ~
+  ~                  Copyright (c)  2020. Berk Orhan. All rights reserved.
+  ~
+  -->
+<resources>
+    <string name="app_name">CardView DEMO</string>
+
+    <string name="mainActivityText">This project was developed for ISE.\n
+        Plagiarism may result in your expulsion for higher education.\n
+        This code detect by any plagiarism checkers. So that\'s way I do not recommend to use this application for your HomeWork or Project Assignment.\n
+        You can study the code in this project. Read, review and learn but please do not use my code.\n
+        Read, review and learn but please do not use my code. \n\n
+        Note : If you rotate the screen, you can test the ScrollView.</string>
+
+        <string name="show_button">Show The APPLICATION Content</string>
+
+
+    <string name="text_ParagpraphTitle">Title Of Parapraph</string>
+    <string name="text_paragpraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="image_desc">Image For Text</string>
+
+
+
+    <string name="itemTitle1">C Programming Language</string>
+    <string name="itemText1">C is a middle-level programming language developed by Dennis Ritchie during the early 1970s while working at AT&amp;T Bell Labs in the USA. The objective of its development was in the context of the re-design of the UNIX operating system to enable it to be used on multiple computers.</string>
+
+
+    <string name="itemTitle2">Java Programming Language</string>
+    <string name="itemText2">Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages. </string>
+
+
+    <string name="itemTitle3">PHP Programming Language</string>
+    <string name="itemText3">PHP (Hypertext Preprocessor) is a widely-used open source general-purpose server-side scripting language. PHP, which has become the basis for many web applications, allows easy insertion in HTML code and connection to MySQL and PgSQL Databases.</string>
+
+
+    <string name="itemTitle4">Ruby Programming Language</string>
+    <string name="itemText4">Ruby is most used for building web applications. However, it is a general-purpose language similar to Python, so it has many other applications like data analysis, prototyping, and proof of concepts. Probably the most obvious implementation of Ruby is Rails web, the development framework built with Ruby </string>
+
+
+    <string name="itemTitle5">Swift Programming Language</string>
+    <string name="itemText5">Swift is an open source programming language developed and maintained by Apple, and it\'s what the company recommends that developers use when creating apps for its various platforms, be it iOS, macOS or iPadOS. It\'s an evolution of the Objective-C language </string>
+
+
+    <string name="itemTitle6">C# Programming Language</string>
+    <string name="itemText6">C# can be used to create almost anything but is particularly strong at building Windows desktop applications and games. C# can also be used to develop web applications and has become increasingly popular for mobile development too. Cross-platform tools such as Xamarin allow apps written in C# to be used on almost any mobile device. </string>
+
+
+    <string name="itemTitle7">Python Programming Language</string>
+    <string name="itemText7">Python is a general-purpose coding language—which means that, unlike HTML, CSS, and JavaScript, it can be used for other types of programming and software development besides web development. That includes back end development, software development, data science and writing system scripts among other things. </string>
+
+
+    <string name="itemTitle8">Kotlin Programming Language</string>
+    <string name="itemText8">Kotlin is a statically typed, general-purpose programming language developed by JetBrains, that has built world-class IDEs like IntelliJ IDEA, PhpStorm, Appcode, etc. It was first introduced by JetBrains in 2011 and a new language for the JVM. Kotlin is object-oriented language, and a “better language” than Java, but still be fully interoperable with Java code. </string>
+
+
+    <string name="itemTitle9">Scala Programming Language</string>
+    <string name="itemText9">Scala programming is a general-purpose computer language that supports both object-oriented and functional styles of programming on a larger scale. Scala is a strong static type of programming language and is influenced by the Java programming language. </string>
+
+
+    <string name="itemTitle10">Structured Query Language</string>
+    <string name="itemText10">SQL is a database query language (not a development language) that allows for adding, accessing and managing content in a database. It is the language that allows programmers to perform the common acronym CRUD (Create; Read; Update; Delete) within a database. </string>
+
+
+</resources>

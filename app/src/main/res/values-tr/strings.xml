@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Berk Orhan on
+  ~ APPBeta Mobile | www.APPBeta.net | mobile@appbeta.net
+  ~
+  ~           YASAL UYARI
+  ~
+  ~                 Bu proje dosyasının herhangi bir amaç ile izinsiz olarak dağıtılması,
+  ~                 çoğaltılması, satılması ve izinsiz kullanılması yasaktır!
+  ~
+  ~                 İzinsiz kullanım, çoğaltımı, dağıtımı, satışı yapıldığı
+  ~                 tespit edilmesi halinde yasal yollara başvurulacaktır.
+  ~
+  ~                  Copyright (c)  2020. Berk Orhan. All rights reserved.
+  ~
+  -->
+
+<resources>
+
+
+    <string name="app_name">CardView DEMO</string>
+
+    <string name="mainActivityText">Bu proje ISE için geliştirilmiştir. \n
+        Eğer bir yükseköğretim programına kayıtlıysanız, içerik, kod, emek hırsızlığı yükseköğretim programından atılmanıza sebep olabilir!\n
+        Bu projedeki kodlar intihal programları tarafından algılanmaktadır. O yüzden bu projeyi ödevleriniz veya projelerinizde kullanmanızı tavsiye etmiyorum.\n
+        Bu proje üzerindeki kodları okuyabilir, inceleyebilir ve temel yapısını öğrenebilirsiniz.\n
+        Lütfen kodlarımı herhangi bir yerde kullanmayınız.\n\n
+
+        Not : Ekranı herhangi bir yöne çevirerek ScrollView yapısını test edebilirsiniz.</string>
+
+    <string name="show_button">Uygulama İçerini Göster</string>
+
+    <string name="text_ParagpraphTitle">Title Of Parapraph</string>
+    <string name="text_paragpraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="image_desc">Image For Text</string>
+
+
+
+    <string name="itemTitle1">C Programlama Dili</string>
+    <string name="itemText1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle2">Java Programlama Dili</string>
+    <string name="itemText2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle3">PHP Programlama Dili</string>
+    <string name="itemText3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle4">Ruby Programlama Dili</string>
+    <string name="itemText4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle5">Swift Programlama Dili</string>
+    <string name="itemText5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle6">C# Programlama Dili</string>
+    <string name="itemText6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle7">Python Programlama Dili</string>
+    <string name="itemText7">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle8">Kotlin Programlama Dili</string>
+    <string name="itemText8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle9">Programlama Dili</string>
+    <string name="itemText9">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+    <string name="itemTitle10">Programlama Dili</string>
+    <string name="itemText10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </string>
+
+
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="android_bitmap">150dp</dimen>
+    <dimen name="zero_margin">0dp</dimen>
+    <dimen name="dimen_for64">64dp</dimen>
+
+    <dimen name="dimen_for_8dp">8dp</dimen>
+    <dimen name="dimen_for_16dp">16dp</dimen>
+    <dimen name="dimen_for_5dp">5dp</dimen>
+    <dimen name="dimen_for_7dp">7dp</dimen>
+    <dimen name="dimen_for_14dp">14dp</dimen>
+    <dimen name="dimen_for_10dp">10dp</dimen>
+
+    <dimen name="dimen_for_14sp">13sp</dimen>
+    <dimen name="dimen_for_10sp">10sp</dimen>
+
+    <dimen name="ayrac">2dp</dimen>
+
+    <dimen name="dimen_for_textImage">128dp</dimen>
+
+</resources>
