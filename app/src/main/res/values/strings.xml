@@ -20,8 +20,8 @@
     <string name="mainActivityText">This project was developed for ISE.\n
         Plagiarism may result in your expulsion for higher education.\n
         This code detect by any plagiarism checkers. So that\'s way I do not recommend to use this application for your HomeWork or Project Assignment.\n
-        You can study the code in this project. Read, review and learn but please do not use my code.\n
-        Read, review and learn but please do not use my code. \n\n
+        You can study the code in this project.
+        Read it, review it and learn it but please do not use my code. \n\n
         Note : If you rotate the screen, you can test the ScrollView.</string>
 
         <string name="show_button">Show The APPLICATION Content</string>
