@@ -1,7 +1,7 @@
 # CardViewList
 
 This is an android Application written in Kotlin language. It's a Basic custom ListView.
-
+Developed for ISE308
 
 ## Plagiarism Warning:
 
